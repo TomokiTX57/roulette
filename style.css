@@ -147,15 +147,15 @@ body {
 
 /* 結果画像 */
 .result-image {
-  max-width: 250%;
-  max-height: 250%;
+  max-width: 400%;
+  max-height: 400%;
   border-radius: 10px;
   background-color: transparent;
 }
 
 .casino-sign {
   position: absolute; /* 親要素に依存せず絶対配置 */
-  top: 275px; /* 垂直方向の位置を画面下の方に調整 */
+  top: 500px; /* 垂直方向の位置を画面下の方に調整 */
   left: 50%; /* 水平方向の中央 */
   transform: translate(-50%, -50%); /* 自身のサイズ分だけ位置を調整 */
   width: 1500px; /* 看板の幅 */
@@ -196,7 +196,7 @@ body {
 }
 
 .scroll-text span {
-  font-size: 90px;
+  font-size: 150px;
   font-weight: bold;
   color: #fff;
   text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff9900;
