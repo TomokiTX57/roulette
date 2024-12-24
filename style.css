@@ -25,6 +25,17 @@ body {
   z-index: -1; /* 動画を背景に配置 */
 }
 
+/* 背景動画のスタイル */
+.background-photo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* 横幅を画面いっぱいに設定 */
+  height: 100%; /* 高さを画面いっぱいに設定 */
+  object-fit: cover; /* アスペクト比を維持しながら画面全体にフィット */
+  z-index: -1; /* 動画を背景に配置 */
+}
+
 /* コンテンツ全体のスタイル */
 .content {
   position: relative;
