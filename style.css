@@ -64,18 +64,17 @@ body {
 }
 
 /* ポインター（三角形）のスタイル */
-/* ポインター（三角形）のスタイル */
 .pointer {
   position: absolute;
-  top: -33px; /* 画像に少し重なる位置 */
+  top: -99px; /* 画像に少し重なる位置 */
   left: 50%;
   width: 0;
   height: 0;
 
   /* 外側の枠線（三角形） */
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 44px solid black;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 132px solid black;
 
   /* 中央揃え */
   transform: translateX(-50%);
@@ -84,15 +83,15 @@ body {
 .pointer::after {
   content: '';
   position: absolute;
-  top: -43px; /* 黄色いポインターを白枠の中央に配置 */
-  left: -16px; /* 中央揃え */
+  top: -129px; /* 黄色いポインターを白枠の中央に配置 */
+  left: -48px; /* 中央揃え */
   width: 0;
   height: 0;
 
   /* 内側の三角形 */
-  border-left: 16px solid transparent; /* 左側の透明部分 */
-  border-right: 16px solid transparent; /* 右側の透明部分 */
-  border-top: 40px solid yellow; /* 黄色いポインター本体 */
+  border-left: 48px solid transparent; /* 左側の透明部分 */
+  border-right: 48px solid transparent; /* 右側の透明部分 */
+  border-top: 120px solid yellow; /* 黄色いポインター本体 */
 }
 
 .result-container {
