@@ -168,7 +168,7 @@ body {
   top: 500px; /* 垂直方向の位置を画面下の方に調整 */
   left: 50%; /* 水平方向の中央 */
   transform: translate(-50%, -50%); /* 自身のサイズ分だけ位置を調整 */
-  width: 20000px; /* 看板の幅 */
+  width: 3000px; /* 看板の幅 */
   height: 200px; /* 看板の高さ */
   background: #14133d; /* 看板内部の背景色 */
   border: 12px solid #ffcc00; /* 枠の色 */
