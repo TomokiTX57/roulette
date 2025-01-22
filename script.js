@@ -31,7 +31,7 @@ const resultEffect = new Audio("result_effect.mp3"); // 結果表示音
 
 // スクロールアニメーションのメッセージ
 const scrollMessages = [
-  "リングイベントChip Drop",
+  "リングイベント SPIN & DROP!",
   "フルハウス以上の役でルーレットStart!!",
   "ルーレットで出た出目が次のポットに投入!!",
   "役が完成していて、相手に降りられてしまっても、ハンドをショーすればルーレットStart!!"
